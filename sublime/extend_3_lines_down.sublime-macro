@@ -1,0 +1,29 @@
+[
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	}
+]

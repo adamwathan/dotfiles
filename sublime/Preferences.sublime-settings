@@ -1,0 +1,24 @@
+{
+	"color_scheme": "Packages/Custom Themes/Peacock-mod.tmTheme",
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 12,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintageous",
+		"Less2Css",
+		"VintageLines",
+		"Vintage"
+	],
+	"line_padding_bottom": 8,
+	"line_padding_top": 8,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"theme": "Soda Dark 3-mod.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
