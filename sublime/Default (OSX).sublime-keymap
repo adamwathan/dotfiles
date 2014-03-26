@@ -6,8 +6,6 @@
     { "keys": ["alt+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
     { "keys": ["alt+shift+backspace"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
 	{ "keys": ["j", "j"], "command": "set_action", "args": {"action": "vi_esc"}, "context": [{"key": "vi_mode_insert"}, {"key": "vi_is_buffer"}] },
-	{"keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
-    {"keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
     { "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "Packages/User/move_3_lines_up.sublime-macro"} },
     { "keys": ["alt+down"], "command": "run_macro_file", "args": {"file": "Packages/User/move_3_lines_down.sublime-macro"} },
     { "keys": ["alt+shift+up"], "command": "run_macro_file", "args": {"file": "Packages/User/extend_3_lines_up.sublime-macro"} },
