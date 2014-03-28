@@ -31,5 +31,6 @@
     { "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
     { "keys": ["ctrl+i"], "command": "reindent", "args": { "single_line": false } },
     { "keys": ["super+."], "command": "open_file", "args": {"contents": "[\n $0\n]\n", "file": "${packages}/User/Default ($platform).sublime-keymap"}},
-    { "keys": ["super+\\"], "command": "toggle_side_bar" }
+    { "keys": ["super+\\"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+super+shift+backspace"], "command": "advanced_new_file_delete", "args": { "current": true } }
 ]
