@@ -1,0 +1,59 @@
+{
+    "replacements": {
+        // Example replacements
+        "remove_public": {
+            "find": "(protected) |(private) |(public) ",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "function_to_def": {
+            "find": "function ",
+            "replace": "def ",
+            "greedy": true,
+            "case": false
+        },
+        "remove_dollars": {
+            "find": "\\$",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "remove_this": {
+            "find": "this->",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "replace_arrows_with_dots": {
+            "find": "->",
+            "replace": ".",
+            "greedy": true,
+            "case": false
+        },
+        "move_else_down_a_line": {
+            "find": "\\} else \\{",
+            "replace": "}\nelse {",
+            "greedy": true,
+            "case": false
+        },
+        "remove_curly1": {
+            "find": "(\\n)*\\{",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "remove_curly2": {
+            "find": "\\}",
+            "replace": "end",
+            "greedy": true,
+            "case": false
+        },
+        "remove_semicolons": {
+            "find": ";",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        }
+    }
+}

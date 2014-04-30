@@ -21,7 +21,7 @@
     { "keys": ["ctrl+super+]"], "command": "move_to_neighboring_group"},
     { "keys": ["ctrl+super+["], "command": "move_to_neighboring_group", "args": {"forward": false}},
     { "keys": ["ctrl+["], "command": "focus_neighboring_group", "args": {"forward": false}},
-    { "keys": ["ctrl+["], "command": "focus_neighboring_group", "args": {"forward": true}},
+    { "keys": ["ctrl+]"], "command": "focus_neighboring_group", "args": {"forward": true}},
     { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
     { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
     { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
