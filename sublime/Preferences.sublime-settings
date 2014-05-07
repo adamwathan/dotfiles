@@ -3,7 +3,7 @@
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -20,6 +20,6 @@
 		120
 	],
 	"theme": "Soda Dark 3-mod.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
