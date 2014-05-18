@@ -7,10 +7,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"VintageLines",
+		"Vintageous",
 		"Less2Css",
-		"Vintage",
-		"Vintageous"
+		"VintageLines",
+		"Vintage"
 	],
 	"line_padding_bottom": 8,
 	"line_padding_top": 8,
@@ -19,7 +19,7 @@
 		80,
 		120
 	],
-	"theme": "Soda Dark 3-mod.sublime-theme",
+	"theme": "Soda Dark 3-mod2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
