@@ -7,8 +7,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintageous",
 		"Less2Css",
+		"Vintageous",
 		"VintageLines",
 		"Vintage"
 	],

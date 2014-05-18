@@ -1,5 +1,6 @@
 [
 	{ "caption": "File: Reveal in Side Bar", "command": "reveal_in_side_bar" },
-	{ "caption": "File: Close Tabs to the Right", "command": "close_to_right" },
+    { "caption": "File: Close Tabs to the Right", "command": "close_to_right" },
+	{ "caption": "File: Close Others", "command": "close_others" },
 	{ "caption": "Word Wrap: Wrap at 80 columns", "command": "set_setting", "args": { "setting": "wrap_width", "value": 80 } }
 ]
