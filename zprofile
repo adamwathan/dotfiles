@@ -52,3 +52,8 @@ alias gbD="git branch -D"
 alias ctags="`brew --prefix`/bin/ctags"
 alias zpro='vim ~/.zprofile && source ~/.zprofile'
 
+
+function vhost() {
+   echo "192.168.33.10 $1" >> /etc/hosts 
+}
+
