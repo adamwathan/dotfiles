@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:"/Applications/MAMP/bin/php/php5.4.4/bin":~/.composer/vendor/bin:"./vendor/bin":"./node_modules/.bin":$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:"/Applications/MAMP/bin/php/php5.4.4/bin":~/.composer/vendor/bin:"./vendor/bin":"./node_modules/.bin":~/AndroidSDK/sdk/platform-tools:~/AndroidSDK/sdk/tools:$PATH
 
 alias getcomposer='curl -sS https://getcomposer.org/installer | php'
 alias getlaravel='git clone git@github.com:laravel/laravel.git'

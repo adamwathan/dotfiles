@@ -7,10 +7,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage",
 		"Less2Css",
 		"Vintageous",
-		"VintageLines",
-		"Vintage"
+		"VintageLines"
 	],
 	"line_padding_bottom": 8,
 	"line_padding_top": 8,
