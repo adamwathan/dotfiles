@@ -7,17 +7,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"Less2Css",
+		"phpfmt",
+		"Vintage",
 		"Vintageous",
 		"VintageLines"
 	],
-	"line_padding_bottom": 8,
-	"line_padding_top": 8,
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
 	"rulers":
 	[
-		80,
-		120
 	],
 	"theme": "Soda Dark 3-mod2.sublime-theme",
 	"translate_tabs_to_spaces": true,

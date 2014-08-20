@@ -1,0 +1,5 @@
+{
+    "psr1_and_2":true,
+    "indent_with_space": true,
+    "disable_auto_align": false
+}

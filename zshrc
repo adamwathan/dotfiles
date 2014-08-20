@@ -48,3 +48,4 @@ source ~/.zprofile
 # Customize to your needs..
 cdpath=(~/Development/Personal ~/Development/ChromeMedia ~/Development/Personal/_package-dev/workbench/adamwathan ~/Development/Personal/_package-dev/workbench/vehikl ~/Development/_forks ~/Development/Vehikl ~/Development)
 export JAVA_HOME=$(/usr/libexec/java_home)
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
