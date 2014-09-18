@@ -48,6 +48,7 @@ alias rst="git reset --hard"
 alias gf="git fetch"
 alias gbd="git branch -d"
 alias gbD="git branch -D"
+alias gcup="git branch --merged | grep -v "\*" | xargs -n 1 git branch -d"
 
 alias ctags="`brew --prefix`/bin/ctags"
 alias zpro='vim ~/.zprofile && source ~/.zprofile'

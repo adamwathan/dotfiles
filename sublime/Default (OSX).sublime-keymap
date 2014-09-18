@@ -3,7 +3,7 @@
 	{ "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
     { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 	{ "keys": ["super+'"], "command": "expand_selection_to_quotes" },
-    { "keys": ["alt+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
+    { "keys": ["alt+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": false } },
     { "keys": ["alt+shift+backspace"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
 	{ "keys": ["j", "j"], "command": "set_action", "args": {"action": "vi_esc"}, "context": [{"key": "vi_mode_insert"}, {"key": "vi_is_buffer"}] },
     { "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "Packages/User/move_3_lines_up.sublime-macro"} },
