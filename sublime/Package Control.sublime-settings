@@ -1,5 +1,8 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -11,7 +14,7 @@
 		"DocBlockr",
 		"Emmet",
 		"Expand Selection to Quotes",
-		"laravel-blade",
+		"Laravel Blade Highlighter",
 		"LESS",
 		"Less2Css",
 		"Minifier",
@@ -22,8 +25,11 @@
 		"phpfmt",
 		"Predawn",
 		"RegReplace",
+		"Ruby Slim",
 		"Sass",
+		"SelectUntil",
 		"SideBarEnhancements",
+		"SublimeHighlight",
 		"Theme - Night",
 		"Theme - Soda",
 		"Theme - Spacegray",
@@ -31,5 +37,9 @@
 		"VAlign",
 		"VintageLines",
 		"Zen Tabs"
+	],
+	"repositories":
+	[
+		"https://github.com/n1k0/SublimeHighlight/tree/python3"
 	]
 }

@@ -1,6 +1,11 @@
 [
     { "caption": "File: Reveal in Side Bar", "command": "reveal_in_side_bar" },
     { "caption": "File: Close Tabs to the Right", "command": "close_to_right" },
-	{ "caption": "File: Close Others", "command": "close_others" },
-	{ "caption": "Word Wrap: Wrap at 80 columns", "command": "set_setting", "args": { "setting": "wrap_width", "value": 80 } }
+    { "caption": "File: Close Others", "command": "close_others" },
+	{ "caption": "Straight Quotes: Normalize quotes", "command": "straight_quotes" },
+    { "caption": "Word Wrap: Wrap at 80 columns", "command": "set_setting", "args": { "setting": "wrap_width", "value": 80 } },
+    { "caption": "Tab Width: Set to 1 space", "command": "set_setting", "args": { "setting": "tab_size", "value": 1 } },
+    { "caption": "Tab Width: Set to 2 spaces", "command": "set_setting", "args": { "setting": "tab_size", "value": 2 } },
+    { "caption": "Tab Width: Set to 3 spaces", "command": "set_setting", "args": { "setting": "tab_size", "value": 3 } },
+	{ "caption": "Tab Width: Set to 4 spaces", "command": "set_setting", "args": { "setting": "tab_size", "value": 4 } }
 ]

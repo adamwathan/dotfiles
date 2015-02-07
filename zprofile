@@ -35,7 +35,6 @@ alias gs='git status'
 alias gc='git commit'
 alias gcam='git commit -am'
 alias gp='git push'
-alias gpu='git push -u origin $(current_branch)'
 alias gl='git log'
 alias gpl='git pull'
 alias pull='git pull'
@@ -48,16 +47,37 @@ alias rst="git reset --hard"
 alias gf="git fetch"
 alias gbd="git branch -d"
 alias gbD="git branch -D"
-alias gcup="git branch --merged | grep -v "\*" | xargs -n 1 git branch -d"
+alias gcup='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+
+function gpu() {
+	local remote=origin
+	if [ $# = 1 ]; then
+		local remote=$1
+	fi
+	git push -u $remote $(current_branch)
+}
 
 alias ctags="`brew --prefix`/bin/ctags"
 alias zpro='vim ~/.zprofile && source ~/.zprofile'
 
+alias be="bundle exec"
+
+alias hs="homestead"
 
 function vhost() {
-   echo "192.168.33.10 $1" >> /etc/hosts 
+   echo "192.168.33.10 $1" >> /etc/hosts
 }
 
 function gitty() {
   git push
 }
+
+function scublish() {
+    sculpin generate --env=prod
+    cd output_prod
+    git add --all
+    git commit -am "$1"
+    git push origin master
+    cd ..
+}
+

@@ -1,6 +1,7 @@
 {
-    "psr1_and_2":true,
-    "indent_with_space": true,
-    "disable_auto_align": false,
-    "format_on_save": false
+	"disable_auto_align": false,
+	"format_on_save": false,
+	"indent_with_space": true,
+	"psr1_and_2": true,
+	"psr2": true
 }

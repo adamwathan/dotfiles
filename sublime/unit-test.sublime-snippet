@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
-/**
- * @test
- */
-function it_${1:does_something}()
+/** @test */
+public function it_${1:does_something}()
 {
     ${2:// Test code}
 }
