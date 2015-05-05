@@ -36,5 +36,6 @@
     { "keys": ["super+."], "command": "open_file", "args": {"contents": "[\n $0\n]\n", "file": "${packages}/User/Default ($platform).sublime-keymap"}},
     { "keys": ["super+\\"], "command": "toggle_side_bar" },
     { "keys": ["ctrl+super+shift+backspace"], "command": "advanced_new_file_delete", "args": { "current": true } },
-    { "keys": ["ctrl+super+\\"], "command": "valign" }
+    { "keys": ["ctrl+super+\\"], "command": "valign" },
+    { "keys": ["ctrl+super+i"], "command": "find_use" }
 ]

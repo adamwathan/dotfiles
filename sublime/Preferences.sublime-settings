@@ -12,16 +12,18 @@
 		"CVS"
 	],
 	"font_face": "Menlo",
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintageous",
 		"VintageLines",
-		"Less2Css",
-		"Vintage"
+		"Vintage",
+		"Less2Css"
 	],
 	"line_padding_bottom": 6,
 	"line_padding_top": 6,
+	"margin": 4,
 	"rulers":
 	[
 		80,

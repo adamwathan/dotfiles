@@ -1,7 +1,10 @@
 {
-	"disable_auto_align": false,
+	"disable_auto_align": true,
 	"format_on_save": false,
 	"indent_with_space": true,
-	"psr1_and_2": true,
-	"psr2": true
+	"passes":
+	[
+	],
+	"psr2": true,
+	"version": 3
 }

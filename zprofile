@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:~/.composer/vendor/bin:"./vendor/bin":"./node_modules/.bin":~/AndroidSDK/sdk/platform-tools:~/AndroidSDK/sdk/tools:$PATH
+export PATH=~/.phpenv/bin:"./vendor/bin":/usr/local/bin:/usr/local/sbin:~/.composer/vendor/bin::"./node_modules/.bin":~/AndroidSDK/sdk/platform-tools:~/AndroidSDK/sdk/tools:$PATH
 
 alias getcomposer='curl -sS https://getcomposer.org/installer | php'
 alias getlaravel='git clone git@github.com:laravel/laravel.git'
@@ -20,6 +20,7 @@ alias cg="coffeegulp"
 
 alias s.='subl .'
 alias killaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' |awk '{print $1}'`"
+alias add-spacer="defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="'"''spacer-tile";}'"'"
 
 alias cpssh="pbcopy < ~/.ssh/id_rsa.pub"
 
@@ -57,6 +58,22 @@ function gpu() {
 	git push -u $remote $(current_branch)
 }
 
+function gtd() {
+	local remote=origin
+	if [ $# = 2]; then
+		local remote=$2
+	fi
+	git tag -d $1
+	git push $2 :refs/tags/$1
+}
+
+function prq() {
+	gaa
+	gcam $1
+	gpu
+	hub pull-request -m $1 | pbcopy
+}
+
 alias ctags="`brew --prefix`/bin/ctags"
 alias zpro='vim ~/.zprofile && source ~/.zprofile'
 
@@ -80,4 +97,7 @@ function scublish() {
     git push origin master
     cd ..
 }
+
+eval "$(phpenv init -)"
+
 
