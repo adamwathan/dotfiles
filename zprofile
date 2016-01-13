@@ -1,4 +1,4 @@
-export PATH=~/.phpenv/bin:"./vendor/bin":/usr/local/bin:/usr/local/sbin:~/.composer/vendor/bin::"./node_modules/.bin":~/AndroidSDK/sdk/platform-tools:~/AndroidSDK/sdk/tools:$PATH
+export PATH=/opt/chefdk/bin:~/.rbenv/shims:~/.phpenv/bin:"./vendor/bin":/usr/local/bin:/usr/local/sbin:~/.composer/vendor/bin::"./node_modules/.bin":$PATH
 
 alias getcomposer='curl -sS https://getcomposer.org/installer | php'
 alias getlaravel='git clone git@github.com:laravel/laravel.git'
@@ -36,7 +36,7 @@ alias gs='git status'
 alias gc='git commit'
 alias gcam='git commit -am'
 alias gp='git push'
-alias gl='git log'
+alias gl='git log --pretty=oneline --abbrev-commit'
 alias gpl='git pull'
 alias pull='git pull'
 alias gaa='git add --all :/'
@@ -49,6 +49,10 @@ alias gf="git fetch"
 alias gbd="git branch -d"
 alias gbD="git branch -D"
 alias gcup='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+alias gcl="git clone"
+alias prb="hub pull-request -b"
+alias hpr="hub pull-request"
+alias gw="gulp watch"
 
 function gpu() {
 	local remote=origin
@@ -74,6 +78,18 @@ function prq() {
 	hub pull-request -m $1 | pbcopy
 }
 
+function serve() {
+    local port=8000
+    local folder=.
+    if [ $# -gt 0 ]; then
+        local port=$1
+    fi
+    if [ $# -gt 1 ]; then
+        local folder=$2
+    fi
+    php -S localhost:$port -t $folder
+}
+
 alias ctags="`brew --prefix`/bin/ctags"
 alias zpro='vim ~/.zprofile && source ~/.zprofile'
 
@@ -97,7 +113,4 @@ function scublish() {
     git push origin master
     cd ..
 }
-
-eval "$(phpenv init -)"
-
 

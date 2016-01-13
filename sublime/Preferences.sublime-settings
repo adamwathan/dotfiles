@@ -1,4 +1,5 @@
 {
+	"bold_folder_labels": false,
 	"color_scheme": "Packages/Custom Themes/Atom-Dark-lowcontrast.tmtheme",
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -12,14 +13,17 @@
 		"CVS"
 	],
 	"font_face": "Menlo",
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintageous",
-		"VintageLines",
+		"Color Highlighter",
+		"Less2Css",
+		"Markdown",
+		"SimplePHPUnit",
 		"Vintage",
-		"Less2Css"
+		"VintageLines",
+		"Vintageous"
 	],
 	"line_padding_bottom": 6,
 	"line_padding_top": 6,
@@ -30,6 +34,8 @@
 		120
 	],
 	"theme": "Soda Dark 3-mod3.sublime-theme",
+	"theme_backup": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
 }

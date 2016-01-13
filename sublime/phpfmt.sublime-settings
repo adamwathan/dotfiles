@@ -1,10 +1,14 @@
 {
 	"disable_auto_align": true,
+	"enable_auto_align": false,
 	"format_on_save": false,
 	"indent_with_space": true,
 	"passes":
 	[
+		"ReindentSwitchBlocks"
 	],
+	"php55warning": false,
+	"php_bin": "/usr/local/bin/php",
 	"psr2": true,
-	"version": 3
+	"version": 4
 }

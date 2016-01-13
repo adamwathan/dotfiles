@@ -47,12 +47,14 @@ source ~/.zprofile
 
 # Customize to your needs..
 cdpath=(~/Development/Personal ~/Development/Tighten ~/Development/Tighten/_packages/workbench/tighten ~/Development/Personal/_package-dev/workbench/adamwathan ~/Development)
-export JAVA_HOME=$(/usr/libexec/java_home)
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Disable argument autocorrect
 unsetopt correct_all
-setopt correct
+# setopt correct
 
 # added by travis gem
 [ -f /Users/adamwathan/.travis/travis.sh ] && source /Users/adamwathan/.travis/travis.sh
+
+eval "$(rbenv init -)"
+eval "$(phpenv init -)"

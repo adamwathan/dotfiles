@@ -14,6 +14,7 @@
     { "keys": ["super+alt+i"], "command": "reindent"},
     { "keys": ["ctrl+."], "command": "insert", "args": {"characters": "->"} },
     { "keys": ["ctrl+space"], "command": "insert", "args": {"characters": "_"} },
+    { "keys": ["ctrl+4"], "command": "insert", "args": {"characters": "$this->"} },
     { "keys": ["alt+t"], "command": "run_phpunit_test"},
     { "keys": ["super+alt+t"], "command": "find_matching_test"},
     { "keys": ["ctrl+n"], "command": "insert_namespace"},
@@ -37,5 +38,7 @@
     { "keys": ["super+\\"], "command": "toggle_side_bar" },
     { "keys": ["ctrl+super+shift+backspace"], "command": "advanced_new_file_delete", "args": { "current": true } },
     { "keys": ["ctrl+super+\\"], "command": "valign" },
-    { "keys": ["ctrl+super+i"], "command": "find_use" }
+    { "keys": ["ctrl+super+u"], "command": "find_use" },
+    { "keys": ["ctrl+super+i"], "command": "insert_php_constructor_property" },
+    { "keys": ["super+alt+down"], "command": "goto_definition" }
 ]
